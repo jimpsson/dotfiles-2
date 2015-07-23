@@ -24,6 +24,12 @@ export PATH="$HOME/.local/bin:/usr/local/bin:/usr/local/sbin:$HOME/bin:$PATH"
 export PATH=$HOME/.scripts:$PATH
 
 #
+# Setup rust environment
+#
+#export RUST_LOG="debug"
+export RUST_SRC_PATH=$HOME/Git/rust-lang/rust/src
+
+#
 # Set jitsu env variables
 #
 if [ -z "$JITSU_ENV" ]; then
